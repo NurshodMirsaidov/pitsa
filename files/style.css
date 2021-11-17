@@ -1,0 +1,252 @@
+@import url('./fonts/fonts.css');
+:root{
+    --green:#68bf3b;
+    --sale:#68cd16;
+    --grstart:#69cd17;
+    --grend:#3f8802;
+    --txt:#a6a6a6;
+    --matn:#bdbdbd;
+
+
+}
+header{
+    background: url('./images/header_bg.jpg') no-repeat center center / cover;
+}
+.header-logo{
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 24px;
+    font-family: var(--mbold);
+    color: #fff;
+    font-weight: 700;
+    
+}
+.contact-header a{
+    font-family: var(--mregular);
+    font-size: 24px;
+    font-weight: 400;
+    color: #fff;
+    text-decoration: none;
+    line-height: 23px;
+    padding-right:50px;
+}
+.contact-header button{
+   padding: 18px 41px 17px 39px;
+   display:flex;
+   justify-content:center;
+   align-items:center;
+   border: none;
+   border-radius: 25px;
+   background-color: var(--green);
+   color: #fff;
+   font-family: var(--mregular);
+   font-size: 16px;
+   font-weight: 400;
+   transition: all .2s;
+
+}
+.contact-header{
+    display: flex;
+    align-items: center;
+}
+.contact-header button:hover{
+    background-color: var(--grend);
+}
+.con{
+    padding-top: 30px;
+}
+.header-main p:first-child{
+    text-transform: uppercase;
+    font-family: var(--mblack);
+    font-size: 18px;
+    font-weight: 900;
+    color: #fff;
+    margin-bottom: 33px;
+    line-height: 13px;
+}
+.header-main h2{
+    text-transform:uppercase;
+    font-family: var(--mblack);
+    font-size: 72px;
+    font-weight: 900;
+    color: #fff;
+    margin-bottom:40px;
+    line-height: 50px;
+
+}
+.header-main p:nth-child(3){
+    font-family: var(--mregular);
+    font-size: 18px;
+    font-weight: 400;
+    color: #fff;
+    margin-bottom:68px 
+    
+}
+header{
+    padding: 30px 0 274px 0;
+}
+.header-main button{
+    border: none;
+    padding: 18px 47px 17px 45px;
+    color: #fff;
+    font-family: var(--mregular);
+    font-size: 16px;
+    font-weight: 400;
+    border-radius: 25px;
+    background: linear-gradient(to top, var(--grend), var(--grstart));
+ 
+    
+}
+
+ .header-main {
+    padding-top: 180px;
+    
+}
+main{
+    padding-top: 110px;
+    padding-bottom: 100px;
+} 
+.top-info{
+    margin-right:35px;
+}
+.top-info-right h4{
+    font-family: var(--mbold);
+    font-size: 36px;
+    font-weight: 700;
+    color:var(--green);
+    padding-bottom: 60px;
+    
+}
+.top-info-right p{
+    font-family: var(--mregular);
+    font-size: 18px;
+    font-weight: 400;
+    color: var(--matn);
+    line-height: 35px;
+    
+    
+
+}
+.totti-sign{
+    margin-top: 105px;
+}
+.totti-sign p{
+    font-family: var(mbold);
+    font-size: 24px;
+    font-weight: 700;
+    color: var(--matn);
+    margin-right: 60px;
+}
+.type h3{
+    color: #e1f5d0;
+    font-family: var(--mbold);
+    font-size: 36px;
+    font-weight: 700;
+    
+}
+.left{
+    background: url('./images/Слой 1.png') no-repeat center center / cover;
+    padding: 30px;
+}
+.left span{
+   
+    padding: 15px 10px;
+   
+    border-radius: 50%;
+    background-color: var(--sale);
+    color: #fff;
+}
+.right-1 h4{
+    color: var(--txt);
+    font-family: var(--mbold);
+    font-weight: 700;
+    font-size: 30px;
+    text-transform: uppercase;
+    line-height: 56px;
+}
+.right-1 p{
+    font-family: var(--mregular);
+    font-size: 14px;
+    font-weight: 400;
+    color:var(--txt);
+    line-height: 24px;
+}
+.left{
+    margin-right: 30px;
+}
+.right-2 p span{
+    color: var(--txt);
+    font-family: var(--mbold);
+    font-weight: 700;
+    font-size: 30px;
+
+}
+.right-2 p{
+    font-family: var(mlight);
+    font-size: 18px;
+    color: var(--txt);
+    margin-bottom: 50px;
+}
+.right-2 a{
+    border-radius: 25px;
+    background: linear-gradient(to top, var(--grend), var(--grstart));
+    text-decoration: none;
+    color: #fff;
+    font-family: var(--mregular);
+    font-size: 16px;
+    font-weight: 400;
+    padding:18px 51px 20px 49px;
+    transition: all .2s;
+}
+.right-2 a:hover{
+    background: linear-gradient(to top, var(--grstart), var(--grend));
+}
+.part{
+    margin-bottom: 50px;
+}
+.women img{
+    margin-bottom: 30px;
+   width: 350px;
+    
+
+}
+
+.main-bottom{
+    margin-top: 150px;
+}
+h5  {
+    font-family: var(--mbold);
+    font-size: 16px;
+    font-weight: 700;
+    color: var(--txt);
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.women p:nth-child(3){
+    font-family: var(--mregular);
+    font-weight: 400;
+    font-size: 16px;
+    color: var(--txt);
+    text-align: center;
+    line-height: 25px;
+
+}
+footer{
+    background-color: #060503;
+    margin: 0;
+    padding: 0;
+}
+.pizzeria{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.small p{
+    text-align: center;
+    font-family: var(--mthin);
+    font-weight: 100;
+    font-size: 16px;
+    color:#fff;
+    padding-bottom: 55px;
+    margin: 0 !important;
+}

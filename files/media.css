@@ -1,0 +1,120 @@
+@media (max-width: 800px) {
+    .con{
+        flex-direction: column;
+    }
+    
+}
+@media (max-width: 550px) {
+    .con{
+        flex-direction: column;
+    }
+    
+}
+@media (max-width:500px) {
+    .contact-header{
+        flex-direction: column;
+    }
+    
+}
+
+@media (max-width:430px) {
+    .contact-header{
+        display: flex;
+        justify-content: center;
+    }    
+
+    .contact-header a{
+        margin-bottom: 20px;
+    }
+}
+@media (max-width: 850px) {
+    .top-info{
+        flex-direction: column;
+    }
+    .top-info-right h4, .top-info-right p{
+        text-align: center;
+    }
+    .totti-sign
+    
+    {
+        justify-content:space-between ;
+    }
+
+}
+@media (max-width:1200px) {
+    .main-bottom{
+        flex-direction: column;
+        align-items: center;
+
+    }   
+    .women{
+        width: 100% !important;
+    }
+}
+@media (max-width:770px) {
+    .part{
+        flex-direction: column;
+    }
+    .left{
+        width: 100%;
+        height: 350px;
+        margin-bottom: 30px;
+        padding-top: 30px;
+    }
+    .right{
+        width: 100%;
+    }
+    .right-2{
+        display:flex;
+        flex-direction: column;
+        justify-content:space-between;
+
+    }
+    .pizzeria{
+        flex-direction: column;
+    }
+    
+}
+@media (max-width:476px) {
+    .right-2 a{
+        padding: 5px !important;
+        display:flex;
+        flex-direction: column;
+        justify-content:space-between;
+
+    }
+    .contact-header{
+        flex-direction: column;
+        
+    }
+    .contact-header a{
+        padding-bottom: 20px;
+        padding-top: 20px;
+    }
+   
+}
+@media (max-width:500px) {
+    .totti-sign{
+        flex-direction: column;
+    }
+        
+}
+@media (max-width:430px) {
+    .top-info img{
+        width: 250px !important;
+        margin-left: 50px;
+    }
+    
+}
+@media (max-width: 383px) {
+    .right-2 a{
+        font-size: 12px;
+    }
+
+}
+@media (max-width:400px) {
+    .women img{
+        width: 150px !important;
+    }
+    
+}
